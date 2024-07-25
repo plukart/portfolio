@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!---icons-->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <title>Portafoliot4</title>
+        <link rel="stylesheet" href="styles.css" />
+    </head>
+    <body>
+        <!--menu-->
+        <div class="contenedor-header">
+            <header>
+                <div class="logo">
+                    <a href="#">Jerson</a>
+                </div>
+                <nav id="nav">
+                    <ul>
+                        <li><a href="#inicio" onclick="Seleccionar()">Inicio</a></li>
+                        <li><a href="#sobremi" onclick="Seleccionar()">Quien Soy</a></li>
+                        <li><a href="#skills" onclick="Seleccionar()">Habilidades</a></li>
+                        <li><a href="#curriculum" onclick="Seleccionar()">Curriculum</a></li>
+                        <li><a href="#portfolio" onclick="Seleccionar()">Portafolio</a></li>
+                        <li><a href="#contacto" onclick="Seleccionar()">Contacto</a></li>
+                    </ul>
+                </nav>
+
+                <div class="nav-responsive" onclick="mostrarOcultarMenu()">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </header>
+        </div>
+
+        <!--Seccion inicio-->
+        <section id="inicio" class="inicio">
+            <div class="contenido-banner">
+                <div class="contenedor-img">
+                    <img src="/portafoliot4/img/yo test.png" alt="Jerson">
+                </div>
+                <h1>Jerson Garcia</h1>
+                <h2>Frontend Developer</h2>
+                <div class="redes">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </section>
+
+        <!----Seccion sobremi-->
+        <section id="sobremi" class="sobremi">
+            <div class="contenido-seccion">
+                <h2>Sobre Mi</h2>
+                <p><span>Hola soy Jerson garcia.</span>Soy egresado de la CUN, como diseñador grafico profesional, me dedico a la creacion de marca y desarrollo frontend de paginas web.</p>
+                <div class="fila">
+                    <!----datos personales-->
+                    <div class="col">
+                        <h3>Datos Personales</h3>
+                        <ul>
+                            <li><strong>Cumpleanios:</strong> 12/06/1997</li>
+                            <li><strong>Edad:</strong> 27</li>
+                            <li><strong>Ciudad:</strong> Bogota</li>
+                            <li><strong>Pais:</strong> Colombia</li>
+                            <li><strong>Email:</strong> Jersonal93@gmail.com</li>
+                            <li><strong>Cargo</strong> <span>Freelance</span></li>
+                        </ul>
+                    </div>
+                    <!---intereses-->
+                    <div class="col">
+                        <h3>Intereses</h3>
+                        <div class="contenedor-intereses">
+                            <div class="interes">
+                                <i class="fa-solid fa-gamepad"></i>
+                                <span>JUEGOS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-headphones"></i>
+                                <span>MUSICA</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-book"></i>
+                                <span>LIBROS</span>
+                            </div>
+                            <div class="interes">
+                                <i class="fa-solid fa-plane"></i>
+                                <span>VIAJES</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <button>
+                    Descargar CV <i class="fa-solid fa-download"></i>
+                    <span class="overlay"></span>
+                </button>
+            </div>
+
+        </section>
+        
+        <!--Seccion skills-->
+        <section class="skills" id="skills">
+            <div class="contenido-seccion">
+                <h2>Habilidades</h2>
+                <div class="fila">
+                    <!---technical skills-->
+                    <div class="col">
+                        <h3>Habilidades tecnicas</h3>
+                        <div class="skill">
+                            <span>HTML and CSS</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--skill2-->
+                        <div class="skill">
+                            <span>JAVASCRIPT</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>55%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!---skill3-->
+
+                        <div class="skill">
+                            <span>PHOTOSHOP</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!---skill4-->
+                        <div class="skill">
+                            <span>illustrator</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>95%</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+
+                    <!--professional skills-->
+                    <div class="col">
+                        <h3>Habilidades profesionales</h3>
+                        <div class="skill">
+                            <span>Comunicacion verbal</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--skill2-->
+                        <div class="skill">
+                            <span>Ingles</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!---skill3-->
+
+                        <div class="skill">
+                            <span>Pensamiento critico</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>80%</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!---skill4-->
+                        <div class="skill">
+                            <span>Proyect management</span>
+                            <div class="barra-skill">
+                                <div class="progreso">
+                                    <span>75%</span>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                
+                </div>
+            </div>
+        </section>
+
+        <!---seccion curriculum-->
+
+        <section class="curriculum" id="curriculum">
+            <div class="contenido-seccion">
+                <h2>Curriculum</h2>
+                <div class="fila">
+                    <!---izq-->
+                    <div class="col izquierda">
+                        <h3>Educacion</h3>
+                        <div class="item izq">
+                            <h4>Diseño Grafico</h4>
+                            <span class="casa">CUN</span>
+                            <span class="fecha">2015-2022</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, dicta rem. Ab blanditiis debitis repellendus accusantium commodi sint ipsa, quae natus doloribus id a magni ipsum esse, quo velit tempora!
+                            </p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <!---sect2-->
+                        <div class="item izq">
+                            <h4>Diseño Grafico</h4>
+                            <span class="casa">CUN</span>
+                            <span class="fecha">2015-2022</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, dicta rem. Ab blanditiis debitis repellendus accusantium commodi sint ipsa, quae natus doloribus id a magni ipsum esse, quo velit tempora!
+                            </p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                        <!---sect3-->
+                        <div class="item izq">
+                            <h4>Diseño Grafico</h4>
+                            <span class="casa">CUN</span>
+                            <span class="fecha">2015-2022</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, dicta rem. Ab blanditiis debitis repellendus accusantium commodi sint ipsa, quae natus doloribus id a magni ipsum esse, quo velit tempora!
+                            </p>
+                            <div class="conectori">
+                                <div class="circuloi"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!---der-->
+                    <div class="col izquierda">
+                        <h3>Experiencia laboral</h3>
+                        <div class="item der">
+                            <h4>Diseñador web</h4>
+                            <span class="casa">HappyBarf</span>
+                            <span class="fecha">2021-2022</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, dicta rem. Ab blanditiis debitis repellendus accusantium commodi sint ipsa, quae natus doloribus id a magni ipsum esse, quo velit tempora!
+                            </p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <!---sect2-->
+                        <div class="item der">
+                            <h4>Diseñador web</h4>
+                            <span class="casa">HappyBarf</span>
+                            <span class="fecha">2021-2022</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, dicta rem. Ab blanditiis debitis repellendus accusantium commodi sint ipsa, quae natus doloribus id a magni ipsum esse, quo velit tempora!
+                            </p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                        <!---sect3-->
+                        <div class="item der">
+                            <h4>Diseñador web</h4>
+                            <span class="casa">HappyBarf</span>
+                            <span class="fecha">2021-2022</span>
+                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Debitis, dicta rem. Ab blanditiis debitis repellendus accusantium commodi sint ipsa, quae natus doloribus id a magni ipsum esse, quo velit tempora!
+                            </p>
+                            <div class="conectord">
+                                <div class="circulod"></div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!---Seccion portafolio-->
+        <section id="portfolio" class="portfolio">
+            <div class="contenido-seccion">
+                <h2>Portafolio</h2>
+                <!--galeria-->
+                    <div class="galeria">
+                        <div class="proyecto">
+                            <img src="/portafoliot4/img/yo test.png" alt="">
+                            <div class="overlay">
+                            <h3>Diseño creativo</h3>
+                            <p>Fotografia</p>
+                        </div>
+                    </div>
+                        <!---gl2-->   
+                        <div class="proyecto">
+                            <img src="/portafoliot4/img/yo test.png" alt="">
+                            <div class="overlay">
+                            <h3>Diseño creativo</h3>
+                            <p>Fotografia</p>
+                        </div>
+                    </div>
+                        <!---gl3-->   
+                        <div class="proyecto">
+                            <img src="/portafoliot4/img/yo test.png" alt="">
+                            <div class="overlay">
+                            <h3>Diseño creativo</h3>
+                            <p>Fotografia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--Seccion Contacto-->
+        <section id="contacto" class="contacto">
+            <div class="contenido-seccion">
+                <h2>Contacto</h2>
+                <div class="fila">
+                    <!--formulario-->
+                    <div class="col">
+                            <input type="text" placeholder="Tu Nombre">
+                            <input type="text" placeholder="Asunto">
+                            <input type="email" placeholder="Tu Email">
+                            <textarea name="" id="" cols="30" rows="10" placeholder="Tu Mensaje"></textarea>
+                            <button>Enviar<i class="fa-solid fa-paper-plane"></i>
+                            <span class="overlay"></span>
+                           </button>
+                    </div>
+                    <!--maps-->
+                    <div class="col">
+                        <img src="/portafoliot4/img/maps.png" alt="">
+                        <div class="info">
+                            <ul>
+                                <li><i class="fa-solid fa-location-dot"></i>  Dg 73s #78-i51</li>
+                                <li><i class="fa-solid fa-phone"></i> Telefono: 3118666339</li>
+                                <li><i class="fa-solid fa-envelope"></i> Email: Jersonal93@gmail.com</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!--footer-->
+        <footer>
+            <a href="#inicio" class="arriba"><i class="fa-solid fa-angles-up"></i></a>
+            <p>Diseñado por Jerson Garcia</p>
+            <div class="redes">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+        </footer>
+        <!--script-->
+        <script src="/portafoliot4/script.js"></script>
+                       
+    </body>
+</html>
